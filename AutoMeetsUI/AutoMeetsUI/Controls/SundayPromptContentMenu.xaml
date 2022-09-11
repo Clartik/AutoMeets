@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="AutoMeetsUI.SundayPromptContentMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AutoMeetsUI"
+             mc:Ignorable="d">
+    <ItemsControl d:DataContext="{x:Static local:MenuDesignModel.Instance}"
+                  ItemsSource="{Binding Items}"
+                  Background="White">
+
+        <!-- Item Template-->
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <Grid>
+                    <!-- Header -->
+                    <Grid>
+                        <!-- Header Text -->
+                        <TextBlock Text="{Binding Text}"
+                                   Padding="0 5 10 5"
+                                   Background="White"
+                                   HorizontalAlignment="Left"
+                                   />
+                    </Grid>
+                </Grid>
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</UserControl>
