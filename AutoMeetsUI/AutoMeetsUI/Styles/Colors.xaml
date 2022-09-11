@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:AutoMeetsUI">
+    
+    <Color x:Key="BackgroundLight">#efefef</Color>
+    <SolidColorBrush x:Key="BackgroundLightBrush" Color="{StaticResource BackgroundLight}" />
+
+    <Color x:Key="ForegroundLight">#ffffff</Color>
+    <SolidColorBrush x:Key="ForegroundLightBrush" Color="{StaticResource ForegroundLight}" />
+
+    <Color x:Key="Transparent">#003099c5</Color>
+    <SolidColorBrush x:Key="TransparentBrush" Color="{StaticResource Transparent}" />
+
+    <Color x:Key="DarkModeBackground">#303030</Color>
+    <SolidColorBrush x:Key="DarkModeBackgroundBrush" Color="{StaticResource DarkModeBackground}" />
+
+    <Color x:Key="AutoMeetsYellow">#bba300</Color>
+    <SolidColorBrush x:Key="AutoMeetsYellowBrush" Color="{StaticResource AutoMeetsYellow}" />
+
+</ResourceDictionary>
