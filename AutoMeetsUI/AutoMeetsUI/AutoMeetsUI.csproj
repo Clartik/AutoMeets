@@ -1,0 +1,146 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Font Awesome 5 Free-Regular-400.otf" />
+    <None Remove="Fonts\Font Awesome 5 Free-Solid-900.otf" />
+    <None Remove="Images\app.ico" />
+    <None Remove="Images\Help\CheckingText.png" />
+    <None Remove="Images\Help\HelpText.png" />
+    <None Remove="Images\Help\Home Page\CheckingText.png" />
+    <None Remove="Images\Help\Home Page\Dark Mode.png" />
+    <None Remove="Images\Help\Home Page\HelpIcon.png" />
+    <None Remove="Images\Help\Home Page\HelpText.png" />
+    <None Remove="Images\Help\Home Page\Home Page.png" />
+    <None Remove="Images\Help\Home Page\Home Page.psd" />
+    <None Remove="Images\Help\Home Page\IconsHighlight.png" />
+    <None Remove="Images\Help\Home Page\Light Mode.png" />
+    <None Remove="Images\Help\Home Page\NextClassText.png" />
+    <None Remove="Images\Help\Home Page\Prompt.png" />
+    <None Remove="Images\Help\Home Page\SettingsIcon.png" />
+    <None Remove="Images\Help\Home Page\SetupIcon.png" />
+    <None Remove="Images\Help\IconsHighlight.png" />
+    <None Remove="Images\Help\Launch.png" />
+    <None Remove="Images\Help\Launch\Launch.png" />
+    <None Remove="Images\Help\NextClassText.png" />
+    <None Remove="Images\Help\Normal.png" />
+    <None Remove="Images\Help\Settings.gif" />
+    <None Remove="Images\Help\Settings.mp4" />
+    <None Remove="Images\Help\Settings.png" />
+    <None Remove="Images\Help\Settings\Settings.gif" />
+    <None Remove="Images\Help\Settings\Settings.png" />
+    <None Remove="Images\Help\Settings\Settings.psd" />
+    <None Remove="Images\Help\Settings\SettingsBoot.png" />
+    <None Remove="Images\Help\Settings\SettingsDelayTime.png" />
+    <None Remove="Images\Help\Settings\SettingsDisable.png" />
+    <None Remove="Images\Help\Settings\SetupBottom.psd" />
+    <None Remove="Images\Help\Setup.gif" />
+    <None Remove="Images\Help\Setup.mp4" />
+    <None Remove="Images\Help\Setup.png" />
+    <None Remove="Images\Help\Setup\Setup.gif" />
+    <None Remove="Images\Help\Setup\Setup.mp4" />
+    <None Remove="Images\Help\Setup\Setup.png" />
+    <None Remove="Images\Help\Setup\Setup.psd" />
+    <None Remove="Images\Help\Setup\SetupBottom.png" />
+    <None Remove="Images\Help\Setup\SetupBottomFriday.png" />
+    <None Remove="Images\Help\Setup\SetupBottomPeriod.png" />
+    <None Remove="Images\Help\Setup\SetupOddEven.png" />
+    <None Remove="Images\Help\Setup\SetupPersonal.png" />
+    <None Remove="Images\Help\Setup\SetupSave.png" />
+    <None Remove="Images\Help\Setup\SetupSchoolNot.png" />
+    <None Remove="Images\Help\Setup\SetupWeek.png" />
+    <None Remove="Images\Help\Setup\Sunday Setup Prompt With Highlight.png" />
+    <None Remove="Images\Help\Setup\Sunday Setup Prompt.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary.dll">
+      <Guid>f935dc20-1cf0-11d0-adb9-00c04fd58a0b</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Font Awesome 5 Free-Regular-400.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\Font Awesome 5 Free-Solid-900.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\app.ico" />
+    <Resource Include="Images\Help\Home Page\CheckingText.png" />
+    <Resource Include="Images\Help\Home Page\Dark Mode.png" />
+    <Resource Include="Images\Help\Home Page\HelpIcon.png" />
+    <Resource Include="Images\Help\Home Page\HelpText.png" />
+    <Resource Include="Images\Help\Home Page\Home Page.png" />
+    <Resource Include="Images\Help\Home Page\Home Page.psd" />
+    <Resource Include="Images\Help\Home Page\IconsHighlight.png" />
+    <Resource Include="Images\Help\Home Page\Light Mode.png" />
+    <Resource Include="Images\Help\Home Page\NextClassText.png" />
+    <Resource Include="Images\Help\Home Page\SettingsIcon.png" />
+    <Resource Include="Images\Help\Home Page\SetupIcon.png" />
+    <Resource Include="Images\Help\Launch\Launch.png" />
+    <Resource Include="Images\Help\Settings\Settings.gif" />
+    <Resource Include="Images\Help\Settings\Settings.png" />
+    <Resource Include="Images\Help\Settings\Settings.psd" />
+    <Resource Include="Images\Help\Settings\SettingsBoot.png" />
+    <Resource Include="Images\Help\Settings\SettingsDelayTime.png" />
+    <Resource Include="Images\Help\Settings\SettingsDisable.png" />
+    <Resource Include="Images\Help\Setup\Setup.gif" />
+    <Resource Include="Images\Help\Setup\Setup.mp4" />
+    <Resource Include="Images\Help\Setup\Setup.png" />
+    <Resource Include="Images\Help\Setup\Setup.psd" />
+    <Resource Include="Images\Help\Setup\SetupBottom.png" />
+    <Resource Include="Images\Help\Setup\SetupBottomFriday.png" />
+    <Resource Include="Images\Help\Setup\SetupBottomPeriod.png" />
+    <Resource Include="Images\Help\Setup\SetupOddEven.png" />
+    <Resource Include="Images\Help\Setup\SetupPersonal.png" />
+    <Resource Include="Images\Help\Setup\SetupSave.png" />
+    <Resource Include="Images\Help\Setup\SetupSchoolNot.png" />
+    <Resource Include="Images\Help\Setup\SetupWeek.png" />
+    <Resource Include="Images\Help\Setup\Sunday Setup Prompt.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.0.8" />
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.19041.1" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="Notification.WPF" Version="2.0.0.6" />
+    <PackageReference Include="PropertyChanged.Fody" Version="3.3.1" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Animation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Windows">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\UnionMetadata\Facade\Windows.WinMD</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Extensions\Google Grid View.crx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Extensions\Visual Effects.crx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Extensions\Volume Master.crx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
