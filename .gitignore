@@ -1,12 +1,12 @@
-"AutoMeets - Python/__pycache__/"
-"AutoMeets - Python/dist/"
-"AutoMeets - Python/build/"
-"AutoMeets - Python/.vscode/"
-"AutoMeets - Python/*.spec"
-"**/.vs/"
-"*.sln"
-"Page/"
-"UI Ideas/"
-"*iss"
-"AutoMeets UI Trailer/"
-"AutoMeetsTIGHT.png"
+AutoMeets - Python/__pycache__/
+AutoMeets - Python/dist/
+AutoMeets - Python/build/
+AutoMeets - Python/.vscode/
+AutoMeets - Python/*.spec
+**/.vs/
+*.sln
+Page/
+UI Ideas/
+*iss
+AutoMeets UI Trailer/
+AutoMeetsTIGHT.png
