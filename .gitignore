@@ -3,7 +3,7 @@
 "AutoMeets - Python/build/"
 "AutoMeets - Python/.vscode/"
 "AutoMeets - Python/*.spec"
-".vs/"
+"**/.vs/"
 "*.sln"
 "Page/"
 "UI Ideas/"
